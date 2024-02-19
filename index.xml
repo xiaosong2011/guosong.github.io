@@ -33,18 +33,18 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
+        <groupId> org.apache.maven.plugins </groupId> _ _ _ _
+        <artifactId> maven - surefire - plugin </artifactId>
         <!-- 跳过maven单元测试 -->
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-      </plugin>
-      <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-compiler-plugin</artifactId>
-	<version>3.0</version>
-	    <configuration>
+        <配置>
+          <跳过> true </跳过>
+        </配置>
+      </插件>
+      <插件>
+	<groupId> org.apache.maven.plugins </groupId> _ _ _ _
+	<artifactId> maven - compiler - plugin </artifactId>
+	<版本> 3.0 </版本>
+	    <配置>
 	        <source>1.8</source>
 	        <target>1.8</target>
 	    </configuration>
